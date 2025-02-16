@@ -1,6 +1,6 @@
 # chess_engine
 
-This presents a neural chess engine that combines traditional chess programming techniques with deep learning for move prediction. We implement a convolutional neural network (CNN) architecture trained on 2.5 million chess positions from Lichess.org games, achieving competitive move prediction accuracy while maintaining real-time performance. Our model demonstrates the effectiveness of using spatial board representations combined with legal move masking for chess AI development.
+This presents a neural chess engine that combines traditional chess programming techniques with deep learning for move prediction. Implement a convolutional neural network (CNN) architecture trained on nearly 2.5 million chess positions from Lichess.org games, achieving competitive move prediction accuracy while maintaining real-time performance. 
 
 ## 1. Introduction
 Modern chess engines face the dual challenge of strategic evaluation and computational efficiency. This work explores a hybrid approach:
@@ -10,7 +10,6 @@ Modern chess engines face the dual challenge of strategic evaluation and computa
 - **Large-Scale Training**: Leveraging Lichess's open database of 10,000 games
 - **Real-Time Prediction**: GPU-accelerated inference pipeline
 
-## 2. Methodology
 
 ### 2.1 Data Processing Pipeline
 ```python
