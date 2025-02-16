@@ -1,10 +1,6 @@
 # chess_engine
 
-![Chess Board Visualization](https://example.com/chess-board-image.jpg) 
-*Example board state representation used in model training*
-
-## Abstract
-This paper presents a neural chess engine that combines traditional chess programming techniques with deep learning for move prediction. We implement a convolutional neural network (CNN) architecture trained on 2.5 million chess positions from Lichess.org games, achieving competitive move prediction accuracy while maintaining real-time performance. Our model demonstrates the effectiveness of using spatial board representations combined with legal move masking for chess AI development.
+This presents a neural chess engine that combines traditional chess programming techniques with deep learning for move prediction. We implement a convolutional neural network (CNN) architecture trained on 2.5 million chess positions from Lichess.org games, achieving competitive move prediction accuracy while maintaining real-time performance. Our model demonstrates the effectiveness of using spatial board representations combined with legal move masking for chess AI development.
 
 ## 1. Introduction
 Modern chess engines face the dual challenge of strategic evaluation and computational efficiency. This work explores a hybrid approach:
